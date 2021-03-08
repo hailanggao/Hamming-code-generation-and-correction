@@ -1,8 +1,8 @@
 # Hamming-code-generation-and-correction
-#This project id for:
-#1.Get hamming distance between two codewords
-#2.determine the correct codeword IFF there are any errors in received data
-#3.hamming code generation and correction
+This project id for:
+1.Get hamming distance between two codewords
+2.determine the correct codeword IFF there are any errors in received data
+3.hamming code generation and correction
 
 #For quick running example:
 codeword = '101101'
