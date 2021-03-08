@@ -96,7 +96,7 @@ def hamming_code_generator(codeword):
         parity = reduce(lambda x,y:x^y, parity_bits) # Xor all parity bit
         hamming_list[2**i - 1] = str(parity)
     #convert the hamming_list into int
-    hamming_code = int(''.join(hamming_list))
+    hamming_code = ''.join(hamming_list)
     return hamming_code
 
 #For checking if there are any errors in the received_data
